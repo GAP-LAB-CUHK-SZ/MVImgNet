@@ -1,5 +1,9 @@
 # MVImgNet: A Large-scale Dataset of Multi-view Images
-MVImgNet: A Large-scale Dataset of Multi-view Images. Project Page: https://gaplab.cuhk.edu.cn/projects/MVImgNet/
+<img src="./assets/teaser_ori.png" width="900"/>
+Xianggang Yu*, Mutian Xu*, Yidan Zhang*, Haolin Liu*, Chongjie Ye*,
+Yushuang Wu, Zizheng Yan, Chenming Zhu, Zhangyang Xiong, Tianyou Liang,
+Guanying Chen, Shuguang Cui, Xiaoguang Han# 
+
 
 ## Introduction
 This repository is built for:
@@ -18,9 +22,26 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ## Dataset
+MVImgNet contains **6.5 million** frames from **219,188** videos crossing objects from **238** classes. We provide an OneDrive link to download the full data. Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfU9BkV1hY3r75n5rc37IvlzaK2VFYbdsvohqPGAjb2YWIbUg/viewform?usp=sf_link) to get the download link and password.
+
+We split the full data into $42$ zip files, the total size is about $3.4$ TB.
 
 ### Usage
 ```
 cd path/to/mvimgnet_zip_file
 unzip './*.zip'
 ```
+
+### Folder structure
+```
+|-- ROOT
+    |-- class_label
+        |-- instance_id
+            |-- images
+            |-- sparse/0
+```
+
+The mapping between `class_label` and class name can be found in [mvimgnet_category.txt](https://github.com/GAP-LAB-CUHK-SZ/MVImgNet/blob/main/mvimgnet_category.txt).
+
+The `images` folder contains the multi-view images, and the `sparse` folder contains the reconstructed camera parameters using COLMAP. It is recommended to use the utility function from [this repo](https://github.com/Fyusion/LLFF/tree/master/llff/poses) to read the camera parameters and generate poses for NeRF training.
+
