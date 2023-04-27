@@ -24,7 +24,7 @@ If you find our work useful in your research, please consider citing:
 ## Dataset
 MVImgNet contains **6.5 million** frames from **219,188** videos crossing objects from **238** classes. We provide an OneDrive link to download the full data. Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfU9BkV1hY3r75n5rc37IvlzaK2VFYbdsvohqPGAjb2YWIbUg/viewform?usp=sf_link) to get the download link and password.
 
-We split the full data into $42$ zip files, the total size is about $3.4$ TB.
+We split the full data into 42 zip files, the total size is about 3.4 TB.
 
 ### Usage
 ```
