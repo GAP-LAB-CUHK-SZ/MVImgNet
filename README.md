@@ -48,7 +48,7 @@ The `images` folder contains the multi-view images, and the `sparse` folder cont
 ### Tips for downloading MVImgNet through Ubuntu system.
 We provide tips [at here](https://docs.google.com/document/d/1krVb4B3rZw-0FaBBPS7c3SJKfqq5AVYTs2HN2LnlBPQ/edit?usp=sharing) for downloading our dataset through Ubuntu system (command line style).
 
-### Acknowledgement
+## Acknowledgement
 
 Thanks to [Grace Gao](https://github.com/GGGHSL) for providing tips on downloading our dataset.
 
