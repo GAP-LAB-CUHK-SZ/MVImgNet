@@ -45,7 +45,7 @@ The mapping between `class_label` and class name can be found in [mvimgnet_categ
 
 The `images` folder contains the multi-view images, and the `sparse` folder contains the reconstructed camera parameters using COLMAP. It is recommended to use the utility function from [this repo](https://github.com/Fyusion/LLFF/tree/master/llff/poses) to read the camera parameters and generate poses for NeRF training.
 
-### Tips for downloading MVImgNet through Ubuntu system.
+### Tips for downloading MVImgNet through Ubuntu
 We provide tips [at here](https://docs.google.com/document/d/1krVb4B3rZw-0FaBBPS7c3SJKfqq5AVYTs2HN2LnlBPQ/edit?usp=sharing) for downloading our dataset through Ubuntu system (command line style).
 
 ## Acknowledgement
