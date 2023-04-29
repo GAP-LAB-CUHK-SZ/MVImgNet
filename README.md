@@ -57,5 +57,5 @@ Copyright (c) 2023
 
 ## Acknowledgement
 
-Thanks to [Grace Gao](https://github.com/GGGHSL) for providing tips on downloading our dataset.
+Thanks to [Gege Gao](https://github.com/GGGHSL) for providing tips on downloading our dataset.
 
