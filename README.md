@@ -40,11 +40,14 @@ unzip './*.zip'
         |-- instance_id
             |-- images
             |-- sparse/0
+                |-- cameras.bin   # COLMAP reconstructed cameras
+                |-- images.bin    # binary data of input images
+                |-- points3D.bin  # COLMAP reconstructed sparse point cloud (not dense) 
 ```
 
 The mapping between `class_label` and class name can be found in [mvimgnet_category.txt](https://github.com/GAP-LAB-CUHK-SZ/MVImgNet/blob/main/mvimgnet_category.txt).
 
-The `images` folder contains the multi-view images, and the `sparse` folder contains the reconstructed camera parameters using COLMAP. It is recommended to use the utility function from [this repo](https://github.com/Fyusion/LLFF/tree/master/llff/poses) to read the camera parameters and generate poses for NeRF training.
+The `images` folder contains the multi-view images, and the `sparse` folder contains the reconstructed camera parameters using COLMAP. It is recommended to use the functions provided by [COLMAP](https://github.com/colmap/colmap/blob/dev/scripts/python/read_write_model.py) to read the binary files under `sparse` folder. Moreover, the `gen_poses` function from [this repo](https://github.com/Fyusion/LLFF/tree/master/llff/poses) is recommended to convert the poses for NeRF training.
 
 ### Tips for downloading MVImgNet through Ubuntu
 We provide tips [at here](https://docs.google.com/document/d/1krVb4B3rZw-0FaBBPS7c3SJKfqq5AVYTs2HN2LnlBPQ/edit?usp=sharing) for downloading our dataset through Ubuntu system (command line style).
