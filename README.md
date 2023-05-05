@@ -22,7 +22,7 @@ If you find our work useful in your research, please consider citing:
 }
 ```
 
-## Dataset
+## MVImgNet
 MVImgNet contains **6.5 million** frames from **219,188** videos crossing objects from **238** classes. We provide an OneDrive link to download the full data. Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfU9BkV1hY3r75n5rc37IvlzaK2VFYbdsvohqPGAjb2YWIbUg/viewform?usp=sf_link) to get the download link and password.
 
 We split the full data into 42 zip files, the total size is about 3.4 TB.
@@ -52,7 +52,7 @@ The `images` folder contains the multi-view images, and the `sparse` folder cont
 ### Tips for downloading MVImgNet through Ubuntu
 We provide tips [at here](https://docs.google.com/document/d/1krVb4B3rZw-0FaBBPS7c3SJKfqq5AVYTs2HN2LnlBPQ/edit?usp=sharing) for downloading our dataset through Ubuntu system (command line style).
 
-### MVPNet
+## MVPNet
 MVPNet now contains 87,825 point clouds from 180 categories. Please fill out the following [form](https://docs.google.com/forms/d/e/1FAIpQLSeZlpezgzmCufD94meHv-Pl_54RpNu2jZqMsyW2GCkVouyomQ/viewform?usp=sf_link) to download MVPNet.
 
 ## License
