@@ -39,7 +39,7 @@
 38,cap
 39,can
 40,camera
-41,caninet
+41,cabinet
 42,bus
 43,bowl
 44,bicycle
