@@ -55,6 +55,9 @@ We provide tips [at here](https://docs.google.com/document/d/1krVb4B3rZw-0FaBBPS
 ## MVPNet
 MVPNet now contains 87,825 point clouds from 180 categories. Please fill out the following [form](https://docs.google.com/forms/d/e/1FAIpQLSeZlpezgzmCufD94meHv-Pl_54RpNu2jZqMsyW2GCkVouyomQ/viewform?usp=sf_link) to download MVPNet.
 
+## Demo
+MVImgNet is also shown by Voxel51 at [here](https://cvpr.fiftyone.ai/datasets/mvimgnet/samples), which is publicly demo-able!
+
 ## License
 
 The data is released under the MVImgNet Terms of Use, and the code is released under the Attribution-NonCommercial 4.0 International License.
@@ -64,4 +67,6 @@ Copyright (c) 2023
 ## Acknowledgement
 
 Thanks to [Gege Gao](https://github.com/GGGHSL) for providing tips on downloading our dataset.
+
+Thanks to [Voxel51](https://docs.voxel51.com/) for providing the dataset demo.
 
