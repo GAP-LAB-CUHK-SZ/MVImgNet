@@ -1,0 +1,3 @@
+[submodule "MVPNet/pretraining_scripts"]
+	path = MVPNet/pretraining_scripts
+	url = https://github.com/hugoycj/MVImgNet_3D_Pretraining
