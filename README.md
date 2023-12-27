@@ -16,9 +16,10 @@ If you find our work useful in your research, please consider citing:
 ```
 @inproceedings{yu2023mvimgnet,
     title     = {MVImgNet: A Large-scale Dataset of Multi-view Images},
-    author    = {Yu, Xianggang and Xu, Mutian and Zhang, Yidan and Liu, Haolin and Ye, Chongjie and Wu, Yushuang and Yan, Zizheng and Liang, Tianyou and Chen, Guanying and Cui, Shuguang, and Han, Xiaoguang},
+    author    = {Yu, Xianggang and Xu, Mutian and Zhang, Yidan and Liu, Haolin and Ye, Chongjie and Wu, Yushuang and Yan, Zizheng and Liang, Tianyou and Chen, Guanying and Cui, Shuguang and Han, Xiaoguang},
     booktitle = {CVPR},
     year      = {2023}
+}
 }
 ```
 
