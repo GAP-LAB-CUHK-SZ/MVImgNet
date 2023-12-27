@@ -52,7 +52,7 @@ The `images` folder contains the multi-view images, and the `sparse` folder cont
 
 ### Tips for downloading MVImgNet through Ubuntu
 We provide tips [at here](https://docs.google.com/document/d/1krVb4B3rZw-0FaBBPS7c3SJKfqq5AVYTs2HN2LnlBPQ/edit?usp=sharing) for downloading our dataset through Ubuntu system (command line style).
-You can find additional tips and download scripts from our helpful community members by referring to [this issue](https://github.com/GAP-LAB-CUHK-SZ/MVImgNet/issues/17).
+You can find additional tips and download scripts from our helpful community members by referring to [this issue](https://github.com/GAP-LAB-CUHK-SZ/MVImgNet/issues/17), especially [this script](https://gist.github.com/yixchen/7f9af12a40230f76289988a3181135e3) provided by [Yixin](https://github.com/yixchen).
 
 ## MVPNet
 MVPNet now contains 87,825 point clouds from 180 categories. Please fill out the following [form](https://docs.google.com/forms/d/e/1FAIpQLSeZlpezgzmCufD94meHv-Pl_54RpNu2jZqMsyW2GCkVouyomQ/viewform?usp=sf_link) to download MVPNet.
