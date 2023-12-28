@@ -1,7 +1,7 @@
 # MVImgNet: A Large-scale Dataset of Multi-view Images
 <img src="./assets/teaser_ori.png" width="900"/>
 
-by [Xianggang Yu*](https://larry-u.github.io/), [Mutian Xu*†](https://mutianxu.github.io/), Yidan Zhang*, Haolin Liu*, Chongjie Ye*,
+by [Xianggang Yu*](https://larry-u.github.io/), [Mutian Xu*†](https://mutianxu.github.io/), [Yidan Zhang*](http://zhangyidan.xyz/), Haolin Liu*, Chongjie Ye*,
 Yushuang Wu, Zizheng Yan, Chenming Zhu, Zhangyang Xiong, Tianyou Liang,
 [Guanying Chen](https://guanyingc.github.io/), Shuguang Cui, [Xiaoguang Han‡](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](https://gaplab.cuhk.edu.cn/).
 
