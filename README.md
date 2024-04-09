@@ -51,8 +51,7 @@ The mapping between `class_label` and class name can be found in [mvimgnet_categ
 The `images` folder contains the multi-view images, and the `sparse` folder contains the reconstructed camera parameters using COLMAP. It is recommended to use the functions provided by [COLMAP](https://github.com/colmap/colmap/blob/dev/scripts/python/read_write_model.py) to read the binary files under `sparse` folder. Moreover, the `gen_poses` function from [this repo](https://github.com/Fyusion/LLFF/tree/master/llff/poses) is recommended to convert the poses for NeRF training.
 
 ### Tips for downloading MVImgNet through Ubuntu
-We provide tips [at here](https://docs.google.com/document/d/1krVb4B3rZw-0FaBBPS7c3SJKfqq5AVYTs2HN2LnlBPQ/edit?usp=sharing) for downloading our dataset through Ubuntu system (command line style).
-You can find additional tips and download scripts from our helpful community members by referring to [this issue](https://github.com/GAP-LAB-CUHK-SZ/MVImgNet/issues/17), especially [this script](https://gist.github.com/yixchen/7f9af12a40230f76289988a3181135e3) provided by [Yixin](https://github.com/yixchen).
+We provide the downloading scipt "download_tool.py" for downloading all the content in our sharepoint. Please make sure you have filled our form and get the password. 
 
 ## MVPNet
 MVPNet now contains 87,825 point clouds from 180 categories. Please fill out the following [form](https://docs.google.com/forms/d/e/1FAIpQLSeZlpezgzmCufD94meHv-Pl_54RpNu2jZqMsyW2GCkVouyomQ/viewform?usp=sf_link) to download MVPNet.
@@ -72,3 +71,4 @@ Thanks to [Gege Gao](https://github.com/GGGHSL) for providing tips on downloadin
 
 Thanks to [Voxel51](https://docs.voxel51.com/) for providing the dataset demo.
 
+Thanks to [Wei Cheng](mailto:wchengad@connect.ust.hk) for providing the new dataset downloading solution.
