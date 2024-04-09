@@ -67,8 +67,8 @@ Copyright (c) 2023
 
 ## Acknowledgement
 
+Thanks to [Wei Cheng](https://wchengad.github.io/) for the new downloading solution for our dataset.
+
 Thanks to [Gege Gao](https://github.com/GGGHSL) for providing tips on downloading our dataset.
 
 Thanks to [Voxel51](https://docs.voxel51.com/) for providing the dataset demo.
-
-Thanks to [Wei Cheng](mailto:wchengad@connect.ust.hk) for providing the new dataset downloading solution.
