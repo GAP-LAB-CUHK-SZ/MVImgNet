@@ -50,8 +50,8 @@ The mapping between `class_label` and class name can be found in [mvimgnet_categ
 
 The `images` folder contains the multi-view images, and the `sparse` folder contains the reconstructed camera parameters using COLMAP. It is recommended to use the functions provided by [COLMAP](https://github.com/colmap/colmap/blob/dev/scripts/python/read_write_model.py) to read the binary files under `sparse` folder. Moreover, the `gen_poses` function from [this repo](https://github.com/Fyusion/LLFF/tree/master/llff/poses) is recommended to convert the poses for NeRF training.
 
-### Tips for downloading MVImgNet through Ubuntu
-We provide the downloading scipt "download_tool.py" for downloading all the content in our sharepoint. Please make sure you have filled our form and get the password. 
+### Script for downloading MVImgNet
+We also provide the script, at [download_tool.py](https://github.com/GAP-LAB-CUHK-SZ/MVImgNet/blob/main/download_tool.py), for downloading all the content of our dataset. Before using it, please make sure you have filled out our form and get the password. 
 
 ## MVPNet
 MVPNet now contains 87,825 point clouds from 180 categories. Please fill out the following [form](https://docs.google.com/forms/d/e/1FAIpQLSeZlpezgzmCufD94meHv-Pl_54RpNu2jZqMsyW2GCkVouyomQ/viewform?usp=sf_link) to download MVPNet.
