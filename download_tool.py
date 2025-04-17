@@ -40,7 +40,7 @@ header = {
 }
 
 urls = {
-    "mvimgnet" : "https://cuhko365.sharepoint.com/:f:/s/GAP_Lab_MVImgNet/End5E56f5x1IgPiUZ8U5n0kBFedIKvizIy1xnW-yKMtr1w?e=1PUl1t"
+    "mvimgnet" : "https://cuhko365.sharepoint.com/:f:/s/GAP_Lab_MVImgNet/End5E56f5x1IgPiUZ8U5n0kBFedIKvizIy1xnW-yKMtr1w?e=bFySrp"
 }
 
 def parse_args():
