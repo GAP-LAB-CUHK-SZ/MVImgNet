@@ -5,6 +5,8 @@ by [Xianggang Yu*](https://larry-u.github.io/), [Mutian Xu*†](https://mutianxu
 Yushuang Wu, Zizheng Yan, Chenming Zhu, Zhangyang Xiong, Tianyou Liang,
 [Guanying Chen](https://guanyingc.github.io/), Shuguang Cui, [Xiaoguang Han‡](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](https://gaplab.cuhk.edu.cn/).
 
+## Update
+[MVImgNet2.0](https://github.com/luyues/MVImgNet2.0) is released! It expands MVImgNet to a total of ~520k real-life objects and 515 categories, contains ∼300k real-world objects in 340+ classes. The annotation comprehensively covers object masks, camera parameters, and point clouds.
 
 ## Introduction
 This repository is built for:
@@ -26,7 +28,10 @@ If you find our work useful in your research, please consider citing:
 ## MVImgNet
 MVImgNet contains **6.5 million** frames from **219,188** videos crossing objects from **238** classes. We provide an OneDrive link to download the full data. Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfU9BkV1hY3r75n5rc37IvlzaK2VFYbdsvohqPGAjb2YWIbUg/viewform?usp=sf_link) to get the download link and password.
 
-We split the full data into 42 zip files, the total size is about 3.4 TB.
+**NOTE**: 
+- We split the *full* data into 42 zip files, the total size is about 3.4 TB. If you need the *full* dataset, please directly download all `mvi_xx.zip`.
+
+- If you just need *some categories* of the data, please download the corresponding categories at `MVImgNet_by_categories`, where we split the dataset into different categories (but it is *incomplete*, some categories are not included).
 
 ### Usage
 ```
