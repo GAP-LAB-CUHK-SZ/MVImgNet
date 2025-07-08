@@ -5,6 +5,8 @@ by [Xianggang Yu*](https://larry-u.github.io/), [Mutian Xu*†](https://mutianxu
 Yushuang Wu, Zizheng Yan, Chenming Zhu, Zhangyang Xiong, Tianyou Liang,
 [Guanying Chen](https://guanyingc.github.io/), Shuguang Cui, [Xiaoguang Han‡](https://gaplab.cuhk.edu.cn/) from [GAP-Lab](https://gaplab.cuhk.edu.cn/).
 
+## Update
+[MVImgNet2.0](https://github.com/luyues/MVImgNet2.0) is released! It expands MVImgNet to a total of ~520k real-life objects and 515 categories, contains ∼300k real-world objects in 340+ classes. The annotation comprehensively covers object masks, camera parameters, and point clouds.
 
 ## Introduction
 This repository is built for:
