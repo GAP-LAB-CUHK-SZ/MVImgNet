@@ -28,11 +28,6 @@ If you find our work useful in your research, please consider citing:
 ## MVImgNet
 MVImgNet contains **6.5 million** frames from **219,188** videos crossing objects from **238** classes. We provide an OneDrive link to download the full data. Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfU9BkV1hY3r75n5rc37IvlzaK2VFYbdsvohqPGAjb2YWIbUg/viewform?usp=sf_link) to get the download link and password.
 
-**NOTE**: 
-- We split the *full* data into 42 zip files, the total size is about 3.4 TB. If you need the *full* dataset, please directly download all `mvi_xx.zip`.
-
-- If you just need *some categories* of the data, please download the corresponding categories at `MVImgNet_by_categories`, where we split the dataset into different categories (but it is *incomplete*, some categories are not included).
-
 ### Usage
 ```
 cd path/to/mvimgnet_zip_file
@@ -58,18 +53,25 @@ The `images` folder contains the multi-view images, and the `sparse` folder cont
 ### Script for downloading MVImgNet
 We also provide the script, at [download_tool.zip](https://github.com/GAP-LAB-CUHK-SZ/MVImgNet/blob/main/download_tool.zip), for downloading all the content of our dataset. Before using it, please make sure you have filled out our form and get the password. 
 
-Update 2025.Jul.8th
+**Update 2025.Jul.8th**
 We renew the download script to fix: 
 1. The SharePoint authentication may interrupt the download process.
 2. Users can now choose the specific folder to download the MVImgNet
 
 Usage: 
-1. Unzip the download_tool.zip using the password offered in [form](https://docs.google.com/forms/d/e/1FAIpQLSfU9BkV1hY3r75n5rc37IvlzaK2VFYbdsvohqPGAjb2YWIbUg/viewform?usp=sf_link)
-2. Choose the subfolder to download. [MVImgNet_origin, MVImgNet_category, MVImgNet_mask]
+1. Unzip the download_tool.zip using the password offered in [form](https://docs.google.com/forms/d/e/1FAIpQLSfU9BkV1hY3r75n5rc37IvlzaK2VFYbdsvohqPGAjb2YWIbUg/viewform?usp=sf_link). The password provided in the form can be used to download data from the SharePoint web interface as well as to unzip the download tool.
+2. Choose the subfolder to download. [MVImgNet_origin, MVImgNet_category, MVImgNet_mask], MVImgNet_origin 
 3. Download with:
 ```
 python download_tool.py --data_name "MVImgNet_origin" --download_folder "/path/you/want/to/save"
 ```
+
+**Note**
+
+ We split the *full* data into 42 zip files, the total size is about 3.4 TB. If you need the *full* dataset, please directly download all `mvi_xx.zip`.
+
+If you just need *some categories* of the data, please download the corresponding categories at `MVImgNet_by_categories`, where we split the dataset into different categories (but it is *incomplete*, some categories are not included).
+
 
 ## MVPNet
 MVPNet now contains 87,825 point clouds from 180 categories. Please fill out the following [form](https://docs.google.com/forms/d/e/1FAIpQLSeZlpezgzmCufD94meHv-Pl_54RpNu2jZqMsyW2GCkVouyomQ/viewform?usp=sf_link) to download MVPNet.
