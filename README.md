@@ -68,7 +68,7 @@ python download_tool.py --data_name "MVImgNet_origin" --download_folder "/path/y
 
 **Note**
 
- We split the *full* data into 42 zip files, the total size is about 3.4 TB. If you need the *full* dataset, please directly download all `mvi_xx.zip`.
+ We split the *full* data into 43 zip files (from mvi_00.zip to mvi_42.zip), and the total size is about 3.4 TB. If you need the *full* dataset, please directly download all `mvi_xx.zip`.
 
 If you just need *some categories* of the data, please download the corresponding categories at `MVImgNet_by_categories`, where we split the dataset into different categories (but it is *incomplete*, some categories are not included).
 
